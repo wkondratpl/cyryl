@@ -249,7 +249,7 @@ class Window(Frame):
 		self.listener.start()
 	
 	def app_exit(self):
-		if messagebox.askokcancel("Zakończ program", "Czy naprawdę chcesz wyjść?"):
+		if messagebox.askokcancel("Exit", "Do you really want to exit?"):
 			exit()
 
 	def getCyryl(self, litera):
